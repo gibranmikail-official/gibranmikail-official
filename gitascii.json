@@ -5,7 +5,7 @@
       "name": "Ascii-art Widget",
       "position": {
         "x": 8,
-        "y": 288
+        "y": 12
       },
       "size": {
         "width": 280,
@@ -5194,7 +5194,7 @@
       "name": "Terminal-info Widget",
       "position": {
         "x": 294,
-        "y": 288
+        "y": 12
       },
       "size": {
         "width": 490,
@@ -5235,7 +5235,7 @@
       "name": "Tech-stack Widget",
       "position": {
         "x": 8,
-        "y": 952
+        "y": 676
       },
       "size": {
         "width": 776,
@@ -5274,7 +5274,7 @@
       "name": "Tech-stack Widget",
       "position": {
         "x": 8,
-        "y": 1100
+        "y": 824
       },
       "size": {
         "width": 776,
@@ -5303,7 +5303,7 @@
       "name": "Tech-stack Widget",
       "position": {
         "x": 8,
-        "y": 1248
+        "y": 972
       },
       "size": {
         "width": 776,
@@ -5333,38 +5333,12 @@
       "zIndex": 6
     },
     {
-      "instanceId": "widget_1789044554816",
-      "widgetId": "custom-image",
-      "name": "Custom-image Widget",
-      "position": {
-        "x": 0,
-        "y": 0
-      },
-      "size": {
-        "width": 800,
-        "height": 267
-      },
-      "config": {
-        "sourceType": "url",
-        "imageUrl": "https://raw.githubusercontent.com/gibranmikail-official/gibranmikail-official/main/banner.png?raw=true",
-        "src": "https://raw.githubusercontent.com/gibranmikail-official/gibranmikail-official/main/banner.png?raw=true",
-        "url": "https://raw.githubusercontent.com/gibranmikail-official/gibranmikail-official/main/banner.png?raw=true",
-        "targetUrl": "https://gibranmikail.my.id",
-        "href": "https://gibranmikail.my.id",
-        "hideDecorations": true,
-        "hideBorder": true
-      },
-      "locked": false,
-      "visible": true,
-      "zIndex": 7
-    },
-    {
       "instanceId": "widget_1789048183831",
       "widgetId": "bio",
       "name": "Bio Widget",
       "position": {
         "x": 8,
-        "y": 576
+        "y": 300
       },
       "size": {
         "width": 776,
@@ -5385,7 +5359,7 @@
       "name": "Surveillance-telemetry Widget",
       "position": {
         "x": 8,
-        "y": 1396
+        "y": 1120
       },
       "size": {
         "width": 776,
@@ -5407,7 +5381,7 @@
       "name": "Surveillance-feeds Widget",
       "position": {
         "x": 8,
-        "y": 1824
+        "y": 1548
       },
       "size": {
         "width": 784,
