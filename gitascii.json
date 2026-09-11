@@ -1,8 +1,244 @@
 {
   "widgets": [
     {
+      "instanceId": "widget_1789048493705",
+      "widgetId": "surveillance-feeds",
+      "name": "Surveillance-feeds",
+      "position": {
+        "x": 8,
+        "y": 1824
+      },
+      "size": {
+        "width": 784,
+        "height": 190
+      },
+      "config": {
+        "accentColor": "#c5ff4a",
+        "customTitle": "Surveillance Social Feeds",
+        "secondaryColor": "#ff00ff",
+        "ledColor": "#00ff88",
+        "animationType": "none",
+        "animationPreviewKey": 2
+      },
+      "locked": true,
+      "visible": true,
+      "zIndex": 1
+    },
+    {
+      "instanceId": "widget_1789150438064",
+      "widgetId": "surveillance-title",
+      "name": "Surveillance-title",
+      "position": {
+        "x": 8,
+        "y": 1786
+      },
+      "size": {
+        "width": 776,
+        "height": 30
+      },
+      "config": {
+        "accentColor": "#c5ff4a",
+        "customTitle": "Surveillance Section Title",
+        "secondaryColor": "#ff00ff",
+        "ledColor": "#00ff88"
+      },
+      "locked": true,
+      "visible": true,
+      "zIndex": 2
+    },
+    {
+      "instanceId": "widget_1789048452596",
+      "widgetId": "surveillance-telemetry",
+      "name": "Repositories",
+      "position": {
+        "x": 8,
+        "y": 1358
+      },
+      "size": {
+        "width": 776,
+        "height": 420
+      },
+      "config": {
+        "accentColor": "#c5ff4a",
+        "customTitle": "Terminal Telemetry",
+        "secondaryColor": "#ff00ff",
+        "ledColor": "#00ff88",
+        "animationType": "slide-up",
+        "animationPreviewKey": 1
+      },
+      "locked": true,
+      "visible": true,
+      "zIndex": 3
+    },
+    {
+      "instanceId": "widget_1789044398005",
+      "widgetId": "tech-stack",
+      "name": "Tools",
+      "position": {
+        "x": 8,
+        "y": 1210
+      },
+      "size": {
+        "width": 776,
+        "height": 140
+      },
+      "config": {
+        "selectedTechs": [
+          "github",
+          "gitlab",
+          "git",
+          "docker",
+          "vercel",
+          "linux",
+          "figma",
+          "postman",
+          "vscode",
+          "cloudflare",
+          "netlify"
+        ],
+        "customTitle": "[ DEVOPS & SERVICES ]",
+        "animationType": "fade-in",
+        "animationPreviewKey": 1,
+        "animationDuration": 3000
+      },
+      "locked": true,
+      "visible": true,
+      "zIndex": 4
+    },
+    {
+      "instanceId": "widget_1789044259488",
+      "widgetId": "tech-stack",
+      "name": "Backend",
+      "position": {
+        "x": 8,
+        "y": 1062
+      },
+      "size": {
+        "width": 776,
+        "height": 140
+      },
+      "config": {
+        "selectedTechs": [
+          "nodejs",
+          "supabase",
+          "mysql",
+          "laravel",
+          "postgres"
+        ],
+        "animationType": "fade-in",
+        "animationPreviewKey": 1,
+        "animationDuration": 3000,
+        "customTitle": "[ BACKEND ]"
+      },
+      "locked": true,
+      "visible": true,
+      "zIndex": 5
+    },
+    {
+      "widgetId": "tech-stack",
+      "name": "Frontend",
+      "position": {
+        "x": 8,
+        "y": 914
+      },
+      "size": {
+        "width": 776,
+        "height": 140
+      },
+      "config": {
+        "selectedTechs": [
+          "html",
+          "css",
+          "js",
+          "ts",
+          "react",
+          "nextjs",
+          "tailwind",
+          "vite"
+        ],
+        "theme": "dark",
+        "perLine": 10,
+        "customTitle": "[  FRONTEND ]",
+        "animationType": "fade-in",
+        "animationPreviewKey": 8,
+        "animationDuration": 3000,
+        "lockAspectRatio": false,
+        "hideDecorations": false,
+        "hideBorder": false,
+        "textColor": "#7a7a7a"
+      },
+      "locked": true,
+      "visible": true,
+      "zIndex": 6,
+      "instanceId": "widget_1789042834767_5"
+    },
+    {
+      "instanceId": "widget_1789048183831",
+      "widgetId": "bio",
+      "name": "Bio",
+      "position": {
+        "x": 8,
+        "y": 538
+      },
+      "size": {
+        "width": 776,
+        "height": 368
+      },
+      "config": {
+        "customBio": "Hey there, I'm Gibran Mikail\n\nFull-Stack Developer & UI/UX Designer passionate about building modern, intuitive, and user-centered digital experiences.\n⠀\nI specialize in Frontend Development, UI/UX Design, working with technologies like React, Next.js, TypeScript, JavaScript, Node.js, and modern web frameworks. I enjoy turning ideas and designs into clean, responsive, and interactive applications.\n⠀\nMy main focus is bridging the gap between design and development — creating products that are not only visually polished, but also functional, performant, and scalable. I’m constantly exploring new technologies, development practices, and creative approaches to build better digital products.",
+        "customBlog": "",
+        "customLocation": "South Jakarta, Indonesia",
+        "animationType": "typewriter",
+        "animationPreviewKey": 3
+      },
+      "locked": true,
+      "visible": true,
+      "zIndex": 7
+    },
+    {
+      "widgetId": "terminal-info",
+      "name": "Terminal-info",
+      "position": {
+        "x": 294,
+        "y": 250
+      },
+      "size": {
+        "width": 490,
+        "height": 280
+      },
+      "config": {
+        "headerColor": "#c5ff4a",
+        "labelColor": "#01cdfe",
+        "dotColor": "#6b3ba7",
+        "valueColor": "#ff00ff",
+        "statsValColor": "#ff4a4a",
+        "dividerColor": "#3d1e6d",
+        "showMainSection": true,
+        "showFollowing": false,
+        "showTimezone": true,
+        "showJoined": true,
+        "showStatus": false,
+        "showHighlights": false,
+        "showTwitter": false,
+        "showEmail": false,
+        "showRepos": true,
+        "showGists": true,
+        "animationType": "typewriter",
+        "animationPreviewKey": 4,
+        "animationDuration": 3000,
+        "showFollowers": true,
+        "showStars": true,
+        "showOrgs": false,
+        "customTitle": ""
+      },
+      "locked": true,
+      "visible": true,
+      "zIndex": 8,
+      "instanceId": "widget_1789042834767_2"
+    },
+    {
       "widgetId": "ascii-art",
-      "name": "Ascii-art Widget",
+      "name": "Logo",
       "position": {
         "x": 8,
         "y": 250
@@ -5184,251 +5420,15 @@
         "textColor": "#c5ff4a",
         "animationDuration": 3000
       },
-      "locked": false,
+      "locked": true,
       "visible": true,
-      "zIndex": 2,
+      "zIndex": 9,
       "instanceId": "widget_1789042834767_1"
-    },
-    {
-      "widgetId": "terminal-info",
-      "name": "Terminal-info Widget",
-      "position": {
-        "x": 294,
-        "y": 250
-      },
-      "size": {
-        "width": 490,
-        "height": 280
-      },
-      "config": {
-        "headerColor": "#c5ff4a",
-        "labelColor": "#01cdfe",
-        "dotColor": "#6b3ba7",
-        "valueColor": "#ff00ff",
-        "statsValColor": "#ff4a4a",
-        "dividerColor": "#3d1e6d",
-        "showMainSection": true,
-        "showFollowing": false,
-        "showTimezone": true,
-        "showJoined": true,
-        "showStatus": false,
-        "showHighlights": false,
-        "showTwitter": false,
-        "showEmail": false,
-        "showRepos": true,
-        "showGists": true,
-        "animationType": "typewriter",
-        "animationPreviewKey": 4,
-        "animationDuration": 3000,
-        "showFollowers": true,
-        "showStars": true,
-        "showOrgs": false,
-        "customTitle": ""
-      },
-      "locked": false,
-      "visible": true,
-      "zIndex": 3,
-      "instanceId": "widget_1789042834767_2"
-    },
-    {
-      "widgetId": "tech-stack",
-      "name": "Tech-stack Widget",
-      "position": {
-        "x": 8,
-        "y": 914
-      },
-      "size": {
-        "width": 776,
-        "height": 140
-      },
-      "config": {
-        "selectedTechs": [
-          "html",
-          "css",
-          "js",
-          "ts",
-          "react",
-          "nextjs",
-          "tailwind",
-          "vite"
-        ],
-        "theme": "dark",
-        "perLine": 10,
-        "customTitle": "[  FRONTEND ]",
-        "animationType": "fade-in",
-        "animationPreviewKey": 8,
-        "animationDuration": 3000,
-        "lockAspectRatio": false,
-        "hideDecorations": false,
-        "hideBorder": false,
-        "textColor": "#7a7a7a"
-      },
-      "locked": false,
-      "visible": true,
-      "zIndex": 6,
-      "instanceId": "widget_1789042834767_5"
-    },
-    {
-      "instanceId": "widget_1789044259488",
-      "widgetId": "tech-stack",
-      "name": "Tech-stack Widget",
-      "position": {
-        "x": 8,
-        "y": 1062
-      },
-      "size": {
-        "width": 776,
-        "height": 140
-      },
-      "config": {
-        "selectedTechs": [
-          "nodejs",
-          "supabase",
-          "mysql",
-          "laravel",
-          "postgres"
-        ],
-        "animationType": "fade-in",
-        "animationPreviewKey": 1,
-        "animationDuration": 3000,
-        "customTitle": "[ BACKEND ]"
-      },
-      "locked": false,
-      "visible": true,
-      "zIndex": 5
-    },
-    {
-      "instanceId": "widget_1789044398005",
-      "widgetId": "tech-stack",
-      "name": "Tech-stack Widget",
-      "position": {
-        "x": 8,
-        "y": 1210
-      },
-      "size": {
-        "width": 776,
-        "height": 140
-      },
-      "config": {
-        "selectedTechs": [
-          "github",
-          "gitlab",
-          "git",
-          "docker",
-          "vercel",
-          "linux",
-          "figma",
-          "postman",
-          "vscode",
-          "cloudflare",
-          "netlify"
-        ],
-        "customTitle": "[ DEVOPS & SERVICES ]",
-        "animationType": "fade-in",
-        "animationPreviewKey": 1,
-        "animationDuration": 3000
-      },
-      "locked": false,
-      "visible": true,
-      "zIndex": 6
-    },
-    {
-      "instanceId": "widget_1789048183831",
-      "widgetId": "bio",
-      "name": "Bio Widget",
-      "position": {
-        "x": 8,
-        "y": 538
-      },
-      "size": {
-        "width": 776,
-        "height": 368
-      },
-      "config": {
-        "customBio": "Hey there, I'm Gibran Mikail\n\nFull-Stack Developer & UI/UX Designer passionate about building modern, intuitive, and user-centered digital experiences.\n⠀\nI specialize in Frontend Development, UI/UX Design, working with technologies like React, Next.js, TypeScript, JavaScript, Node.js, and modern web frameworks. I enjoy turning ideas and designs into clean, responsive, and interactive applications.\n⠀\nMy main focus is bridging the gap between design and development — creating products that are not only visually polished, but also functional, performant, and scalable. I’m constantly exploring new technologies, development practices, and creative approaches to build better digital products.",
-        "customBlog": "",
-        "customLocation": "South Jakarta, Indonesia",
-        "animationType": "typewriter",
-        "animationPreviewKey": 3
-      },
-      "locked": false,
-      "visible": true,
-      "zIndex": 7
-    },
-    {
-      "instanceId": "widget_1789048452596",
-      "widgetId": "surveillance-telemetry",
-      "name": "Surveillance-telemetry Widget",
-      "position": {
-        "x": 8,
-        "y": 1358
-      },
-      "size": {
-        "width": 776,
-        "height": 420
-      },
-      "config": {
-        "accentColor": "#c5ff4a",
-        "customTitle": "Terminal Telemetry",
-        "secondaryColor": "#ff00ff",
-        "ledColor": "#00ff88",
-        "animationType": "slide-up",
-        "animationPreviewKey": 1
-      },
-      "locked": false,
-      "visible": true,
-      "zIndex": 8
-    },
-    {
-      "instanceId": "widget_1789048493705",
-      "widgetId": "surveillance-feeds",
-      "name": "Surveillance-feeds Widget",
-      "position": {
-        "x": 8,
-        "y": 1824
-      },
-      "size": {
-        "width": 784,
-        "height": 190
-      },
-      "config": {
-        "accentColor": "#c5ff4a",
-        "customTitle": "Surveillance Social Feeds",
-        "secondaryColor": "#ff00ff",
-        "ledColor": "#00ff88",
-        "animationType": "none",
-        "animationPreviewKey": 2
-      },
-      "locked": false,
-      "visible": true,
-      "zIndex": 9
-    },
-    {
-      "instanceId": "widget_1789150438064",
-      "widgetId": "surveillance-title",
-      "name": "Surveillance-title Widget",
-      "position": {
-        "x": 8,
-        "y": 1786
-      },
-      "size": {
-        "width": 776,
-        "height": 30
-      },
-      "config": {
-        "accentColor": "#c5ff4a",
-        "customTitle": "Surveillance Section Title",
-        "secondaryColor": "#ff00ff",
-        "ledColor": "#00ff88"
-      },
-      "locked": false,
-      "visible": true,
-      "zIndex": 9
     },
     {
       "instanceId": "widget_1789150889033",
       "widgetId": "controlplane-command-deck",
-      "name": "Controlplane-command-deck Widget",
+      "name": "Header",
       "position": {
         "x": 12,
         "y": 4
@@ -5447,9 +5447,9 @@
         "animationPreviewKey": 2,
         "animationDuration": 2000
       },
-      "locked": false,
+      "locked": true,
       "visible": true,
-      "zIndex": 12
+      "zIndex": 10
     }
   ],
   "globalStyles": {
@@ -5461,7 +5461,8 @@
     "borderRadius": 0,
     "padding": 24,
     "themeMode": "dark",
-    "templateStyle": "native"
+    "templateStyle": "native",
+    "transparentBackground": false
   },
   "templateId": "terminal"
 }
