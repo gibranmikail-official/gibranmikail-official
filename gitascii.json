@@ -1,4 +1,5 @@
 {
+  "username": "gibranmikail-official",
   "widgets": [
     {
       "instanceId": "widget_1789048493705",
@@ -20,7 +21,7 @@
         "animationType": "none",
         "animationPreviewKey": 2
       },
-      "locked": true,
+      "locked": false,
       "visible": true,
       "zIndex": 1
     },
@@ -42,7 +43,7 @@
         "secondaryColor": "#ff00ff",
         "ledColor": "#00ff88"
       },
-      "locked": true,
+      "locked": false,
       "visible": true,
       "zIndex": 2
     },
@@ -66,7 +67,7 @@
         "animationType": "slide-up",
         "animationPreviewKey": 1
       },
-      "locked": true,
+      "locked": false,
       "visible": true,
       "zIndex": 3
     },
@@ -101,7 +102,7 @@
         "animationPreviewKey": 1,
         "animationDuration": 3000
       },
-      "locked": true,
+      "locked": false,
       "visible": true,
       "zIndex": 4
     },
@@ -130,7 +131,7 @@
         "animationDuration": 3000,
         "customTitle": "[ BACKEND ]"
       },
-      "locked": true,
+      "locked": false,
       "visible": true,
       "zIndex": 5
     },
@@ -167,7 +168,7 @@
         "hideBorder": false,
         "textColor": "#7a7a7a"
       },
-      "locked": true,
+      "locked": false,
       "visible": true,
       "zIndex": 6,
       "instanceId": "widget_1789042834767_5"
@@ -191,7 +192,7 @@
         "animationType": "typewriter",
         "animationPreviewKey": 3
       },
-      "locked": true,
+      "locked": false,
       "visible": true,
       "zIndex": 7
     },
@@ -231,7 +232,7 @@
         "showOrgs": false,
         "customTitle": ""
       },
-      "locked": true,
+      "locked": false,
       "visible": true,
       "zIndex": 8,
       "instanceId": "widget_1789042834767_2"
@@ -5420,7 +5421,7 @@
         "textColor": "#c5ff4a",
         "animationDuration": 3000
       },
-      "locked": true,
+      "locked": false,
       "visible": true,
       "zIndex": 9,
       "instanceId": "widget_1789042834767_1"
@@ -5447,7 +5448,7 @@
         "animationPreviewKey": 2,
         "animationDuration": 2000
       },
-      "locked": true,
+      "locked": false,
       "visible": true,
       "zIndex": 10
     }
@@ -5464,5 +5465,6 @@
     "templateStyle": "native",
     "transparentBackground": false
   },
-  "templateId": "terminal"
+  "templateId": "terminal",
+  "profileSlug": "default"
 }
