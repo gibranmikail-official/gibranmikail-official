@@ -5,7 +5,7 @@
       "name": "Ascii-art Widget",
       "position": {
         "x": 8,
-        "y": 12
+        "y": 250
       },
       "size": {
         "width": 280,
@@ -5194,7 +5194,7 @@
       "name": "Terminal-info Widget",
       "position": {
         "x": 294,
-        "y": 12
+        "y": 250
       },
       "size": {
         "width": 490,
@@ -5235,7 +5235,7 @@
       "name": "Tech-stack Widget",
       "position": {
         "x": 8,
-        "y": 676
+        "y": 914
       },
       "size": {
         "width": 776,
@@ -5274,7 +5274,7 @@
       "name": "Tech-stack Widget",
       "position": {
         "x": 8,
-        "y": 824
+        "y": 1062
       },
       "size": {
         "width": 776,
@@ -5303,7 +5303,7 @@
       "name": "Tech-stack Widget",
       "position": {
         "x": 8,
-        "y": 972
+        "y": 1210
       },
       "size": {
         "width": 776,
@@ -5338,7 +5338,7 @@
       "name": "Bio Widget",
       "position": {
         "x": 8,
-        "y": 300
+        "y": 538
       },
       "size": {
         "width": 776,
@@ -5361,7 +5361,7 @@
       "name": "Surveillance-telemetry Widget",
       "position": {
         "x": 8,
-        "y": 1120
+        "y": 1358
       },
       "size": {
         "width": 776,
@@ -5385,7 +5385,7 @@
       "name": "Surveillance-feeds Widget",
       "position": {
         "x": 8,
-        "y": 1548
+        "y": 1824
       },
       "size": {
         "width": 784,
@@ -5396,12 +5396,60 @@
         "customTitle": "Surveillance Social Feeds",
         "secondaryColor": "#ff00ff",
         "ledColor": "#00ff88",
-        "animationType": "slide-up",
-        "animationPreviewKey": 1
+        "animationType": "none",
+        "animationPreviewKey": 2
       },
       "locked": false,
       "visible": true,
       "zIndex": 9
+    },
+    {
+      "instanceId": "widget_1789150438064",
+      "widgetId": "surveillance-title",
+      "name": "Surveillance-title Widget",
+      "position": {
+        "x": 8,
+        "y": 1786
+      },
+      "size": {
+        "width": 776,
+        "height": 30
+      },
+      "config": {
+        "accentColor": "#c5ff4a",
+        "customTitle": "Surveillance Section Title",
+        "secondaryColor": "#ff00ff",
+        "ledColor": "#00ff88"
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 9
+    },
+    {
+      "instanceId": "widget_1789150889033",
+      "widgetId": "controlplane-command-deck",
+      "name": "Controlplane-command-deck Widget",
+      "position": {
+        "x": 12,
+        "y": 4
+      },
+      "size": {
+        "width": 776,
+        "height": 240
+      },
+      "config": {
+        "layoutType": "hero",
+        "accentColor": "#c5ff4a",
+        "secondaryColor": "#ff00ff",
+        "hideBorder": false,
+        "hideDecorations": false,
+        "animationType": "slide-down",
+        "animationPreviewKey": 2,
+        "animationDuration": 2000
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 12
     }
   ],
   "globalStyles": {
