@@ -5392,7 +5392,7 @@
         "customTitle": "Surveillance Social Feeds",
         "secondaryColor": "#ff00ff",
         "animationType": "slide-up",
-        "animationPreviewKey": 1
+        "animationPreviewKey": 2
       },
       "locked": false,
       "zIndex": 9,
